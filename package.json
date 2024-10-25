@@ -1,11 +1,12 @@
 {
-  "name": "vanilla-app-template",
+  "name": "simplelightbox project",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://github.com/dikhomenko/goit-advancedjs-hw-01/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/https://github.com/dikhomenko/goit-advancedjs-hw-01/",
+    "build": "vite build --base=/goit-advancedjs-hw-01/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -17,6 +18,7 @@
   "author": "Dina Khomenko",
   "license": "ISC",
   "dependencies": {
+    "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
